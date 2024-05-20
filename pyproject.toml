@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jh-server-papi"
+version = "0.1.0"
+description = ""
+authors = ["Lifelite <j.t.huntsman@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+httpx = "^0.27.0"
+pyjwt = "^2.8.0"
+kafka-python-ng = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
